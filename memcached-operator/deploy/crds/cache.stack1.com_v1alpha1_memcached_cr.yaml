@@ -1,0 +1,8 @@
+apiVersion: cache.stack1.com/v1alpha1
+kind: Memcached
+metadata:
+  name: example-memcached
+  namespace: bobc
+spec:
+  # Add fields here
+  size: 3
